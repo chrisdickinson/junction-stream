@@ -1,0 +1,29 @@
+{
+  "name": "junction-stream",
+  "version": "0.0.0",
+  "description": "through stream that redirects writes to one of two child streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/junction-stream.git"
+  },
+  "keywords": [
+    "junction",
+    "stream",
+    "through"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "dependencies": {
+    "duplex": "~1.0.0",
+    "through": "~2.2.1",
+    "emit-function": "0.0.2"
+  },
+  "devDependencies": {
+    "tape": "~0.2.2",
+    "concat-stream": "~0.1.1"
+  }
+}
